@@ -1,0 +1,90 @@
+print ("---------------CALCULADORA--------------------")
+menu = """Que operacion deseas hacer?
+
+1 - Suma
+
+2 - Resta
+
+3 - Multiplicacion
+
+4 - Division
+
+5 - Salir 
+
+"""
+
+print (menu)
+
+operacion =  int ( input ("Elige: "))
+
+if operacion is 1:
+
+    print ("Introduce el primer numero:")
+
+    A = input ( )
+
+    print ("Introduce el segundo numero:")
+
+    B = input ( )
+
+    print ("La suma es = ")
+
+    suma = int (A) + int (B)
+
+    print (suma)
+
+elif operacion is 2: 
+
+     print ("Introduce el primer numero:") 
+     
+     C = input ( )
+     
+     print ("Introduce el segundo numero:")
+     
+     D = input ( )
+     
+     print ("La resta es = ")
+     
+     resta = int(C) - int (D)
+     
+     print (resta)
+
+elif operacion is 3:
+
+    print ("Introduce el primer numero:")
+
+    E = input ( )
+    
+    print ("Introduce el segundo numero:")
+
+    F = input ( )
+
+    print ("La multiplicacion es = ")
+
+    multiplicacion = int(E) * int (F)
+
+    print (multiplicacion)
+
+elif operacion is 4:
+    
+    print ("Introduce el primer numero:")
+
+    G = input ( )
+
+    print ("Introduce el segundo numero:")
+
+    H = input ( )
+
+    print ("La division es = ")
+
+    division = int(G) / int(H)
+
+    print (division)
+
+elif operacion is 5:
+
+    print ("Salir")
+
+else:
+
+    print ("Opcion no valida")
